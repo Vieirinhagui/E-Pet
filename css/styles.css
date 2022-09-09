@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f0f0f0;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+.bnt_login{
+    position:absolute;
+    left:1100px;
+    top: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.bnt_cad{
+    position:absolute;
+    left:1200px;
+    top: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.p1{
+    position:absolute;
+    left: 850px;
+    top: 250px;
+    width: 350px;
+    height: 250px;
+}
+.dog{
+    position:absolute;
+    top: 200px;
+    left: 250px;
+    width: 450px;
+    height: 350px;
+    border-radius: 10%;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 250px;
+}
+
+:hover.bnt_login{
+    color: grey;
+}
+:hover.bnt_cad{
+    color: grey;
+}
