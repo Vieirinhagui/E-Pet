@@ -13,15 +13,6 @@ body{
 
 .bnt_login{
     position:absolute;
-    left:1100px;
-    top: 40px;
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-}
-
-.bnt_cad{
-    position:absolute;
     left:1200px;
     top: 40px;
     text-decoration: none;
@@ -29,10 +20,24 @@ body{
     font-size: 20px;
 }
 
+.btn_cad{
+    position: absolute;
+    left: 73%;
+    top: 500px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background: #1b6dd8;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
 .p1{
     position:absolute;
     left: 850px;
-    top: 250px;
+    top: 200px;
     width: 350px;
     height: 250px;
 }
@@ -49,7 +54,7 @@ body{
     position: absolute;
     top: 20px;
     left: 50px;
-    width: 250px;
+    width: 220px;
 }
 
 :hover.bnt_login{
