@@ -1,0 +1,5 @@
+const field1 = document.getElementById('field1')
+const field2 = document.getElementById('field2')
+const field3 = document.getElementById('field3')
+const field4 = document.getElementById('field4')
+const field5 = document.getElementById('field5')

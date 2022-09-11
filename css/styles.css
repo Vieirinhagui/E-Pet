@@ -13,7 +13,7 @@ body{
 
 .bnt_login{
     position:absolute;
-    left:1200px;
+    left: 1260px;
     top: 40px;
     text-decoration: none;
     color: white;
@@ -22,8 +22,8 @@ body{
 
 .btn_cad{
     position: absolute;
-    left: 73%;
-    top: 500px;
+    left: 850px;
+    top: 490px;
     cursor: pointer;
     border-radius: 5px;
     padding: 15px 30px;
@@ -60,6 +60,6 @@ body{
 :hover.bnt_login{
     color: grey;
 }
-:hover.bnt_cad{
+:hover.btn_cad{
     color: grey;
 }
