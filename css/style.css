@@ -6,7 +6,8 @@
 }
 
 body{
-    background-color: #f7f7f7;
+    background-color: #f5fcff;
+    height: 2000px;
 }
 
 .navbar{
@@ -46,16 +47,17 @@ body{
 }
 .p2{
     position: absolute;
-    top: 600px;
+    top: 700px;
     left: 250px;
     width: 550px;
     height: 350px;
 }
 #img1{
     position: absolute;
-    top: 250px;
+    top: 220px;
     left: 250px;
     width: 400px;
+    border-radius: 10px;
 }
 
 #img2{
@@ -63,4 +65,134 @@ body{
     top: 600px;
     left: 850px;
     width: 400px;
+    border-radius: 10px;
+}
+
+.destaque{
+    position: absolute;
+    top: 550px;
+    width: 100%;
+    height: 450px;
+    background-color: #9ed0ff;
+    z-index: -1;
+}
+
+#planos{
+    position: absolute;
+    top: 1030px;
+    left: 644.82px;
+    text-decoration: none;
+}
+
+.plano_basico,.plano_intermediario,.plano_avancado{
+    position: absolute;
+    top: 1150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.plano_basico{
+    left: 310.4px;
+}
+.plano_intermediario{
+    left: 640.4px;
+}
+.plano_avancado{
+    left: 970.4px;
+}
+
+.plano{
+    position: absolute;
+    top: 1370px;
+    left: 380px;
+}
+#nome_intermediario{
+    left: 685px;
+}
+#nome_avancado{
+    left: 1030px;
+}
+
+.txt{
+    position: absolute;
+    top: 1400px;
+    left: 335px;
+    width: 150px;
+    text-align: justify;
+}
+#txt2{
+    left: 665px;
+}
+#txt3{
+    left: 995px;
+}
+#color_txt1,#color_txt2,#color_txt3{
+    position: absolute;
+    top: 1130px;
+    left: 255px;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #70b9ff;
+    z-index: -1;
+}
+#color_txt2{
+    left: 590px;
+}
+#color_txt3{
+    left: 925px;
+}
+#valor_txt1,#valor_txt2,#valor_txt3{
+    position: absolute;
+    top: 1550px;
+    left:370px;
+    font-size: 20px;
+}
+#valor_txt2{
+    left: 705px;
+}
+#valor_txt3{
+    left: 1035px;
+}
+
+.bottom-conteiner{
+    position: absolute;
+    top: 1800px;
+    width: 100%;
+    height: 500px;
+    background-color: #9ed0ff;
+}
+#atualizacoes{
+    position: absolute;
+    top: 15px;
+    left: 604.85px;
+}
+
+.dashboard{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    width: 500px;
+    border-radius: 15px;
+}
+.txt_atualizacoes{
+    position: absolute;
+    top: 140px;
+    left: 800px;
+    width: 400px;
+    text-align: justify;
+}
+#copyright{
+    position: absolute;
+    top: 35px;
+    left: 608.3px;
+    font-size: 20px;
+}
+.foot-conteiner{
+    position: absolute;
+    top: 2700px;
+    width: 100%;
+    height: 100px;
+    background-color: #9ed0ff;
 }
