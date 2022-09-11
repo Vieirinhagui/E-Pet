@@ -6,13 +6,20 @@
     <link rel="stylesheet" href="css/login.css">
   </head>
   <body>
-        <div class="form">
+        <div id="container">
             <h1 class="txt_login">LOGIN E SENHA</h1>
-            <label class="label_user">Username:</label>
-            <input type="text" class="input_user">
-            <label class="label_pass" id="pass">Password:</label>
+
+            <div class="row">
+              <label class="label_user">Username</label>
+              <input type="text" class="input_user">
+            </div>
+
+            <div class="row">
+            <label class="label_pass" id="pass">Password</label>
             <input type="password" class="input_pass" id="pass">
-            <button class="bnt_login">LOGIN</button>
+            </div>
+
+            <button class="btn_login"><a href="dashboard.html">LOGIN</a></button>
         </div>
   </body>
 </html>
