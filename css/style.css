@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #4e92ff;
+}
+
+#bnt_login,#bnt_cadastro{
+    position:absolute;
+    right: 150px;
+    top: 35px;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    color: black;
+}
+
+#bnt_login{
+    right: 300px;
+}
