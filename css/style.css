@@ -1,21 +1,22 @@
-*{
+* {
     margin: 0;
     border: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #f5fcff;
 }
 
-.navbar{
+.navbar {
     width: 100%;
     height: 100px;
     background-color: #000ab1;
 }
 
-#bnt_login,#bnt_cadastro{
-    position:absolute;
+#bnt_login,
+#bnt_cadastro {
+    position: absolute;
     right: 130px;
     top: 35px;
     text-decoration: none;
@@ -25,30 +26,32 @@ body{
     font-weight: bold;
 }
 
-#bnt_login{
+#bnt_login {
     right: 310px;
 }
 
-#logo{
+#logo {
     position: absolute;
     top: 25px;
     left: 60px;
     width: 250px;
 }
 
-.p1{
+.p1 {
     display: flex;
     margin-left: 700px;
     margin-top: 80px;
 }
-.p2{
+
+.p2 {
     position: absolute;
     top: 470px;
     left: 250px;
     width: 550px;
     height: 350px;
 }
-#img1{
+
+#img1 {
     position: absolute;
     top: 140px;
     left: 250px;
@@ -56,7 +59,7 @@ body{
     border-radius: 10px;
 }
 
-#img2{
+#img2 {
     position: absolute;
     top: 365px;
     left: 850px;
@@ -64,7 +67,7 @@ body{
     border-radius: 10px;
 }
 
-.destaque{
+.destaque {
     position: absolute;
     top: 715px;
     width: 100%;
@@ -73,14 +76,16 @@ body{
     z-index: -1;
 }
 
-#planos{
+#planos {
     position: absolute;
     top: 740px;
     left: 644.82px;
     text-decoration: none;
 }
 
-.plano_basico,.plano_intermediario,.plano_avancado{
+.plano_basico,
+.plano_intermediario,
+.plano_avancado {
     position: absolute;
     top: 900px;
     width: 200px;
@@ -88,42 +93,51 @@ body{
     border-radius: 50%;
 }
 
-.plano_basico{
+.plano_basico {
     left: 310.4px;
 }
-.plano_intermediario{
+
+.plano_intermediario {
     left: 640.4px;
 }
-.plano_avancado{
+
+.plano_avancado {
     left: 970.4px;
 }
 
-.plano{
+.plano {
     position: absolute;
     top: 1120px;
     left: 380px;
 }
-#nome_intermediario{
+
+#nome_intermediario {
     left: 685px;
 }
-#nome_avancado{
+
+#nome_avancado {
     left: 1030px;
 }
 
-.txt{
+.txt {
     position: absolute;
     top: 1150px;
     left: 335px;
     width: 150px;
     text-align: justify;
 }
-#txt2{
+
+#txt2 {
     left: 665px;
 }
-#txt3{
+
+#txt3 {
     left: 995px;
 }
-#color_txt1,#color_txt2,#color_txt3{
+
+#color_txt1,
+#color_txt2,
+#color_txt3 {
     position: absolute;
     top: 870px;
     left: 255px;
@@ -133,58 +147,69 @@ body{
     background-color: #70b9ff;
     z-index: -1;
 }
-#color_txt2{
+
+#color_txt2 {
     left: 590px;
 }
-#color_txt3{
+
+#color_txt3 {
     left: 925px;
 }
-#valor_txt1,#valor_txt2,#valor_txt3{
+
+#valor_txt1,
+#valor_txt2,
+#valor_txt3 {
     position: absolute;
     top: 1300px;
-    left:370px;
+    left: 370px;
     font-size: 20px;
 }
-#valor_txt2{
+
+#valor_txt2 {
     left: 705px;
 }
-#valor_txt3{
+
+#valor_txt3 {
     left: 1035px;
 }
 
-.bottom-conteiner{
+.bottom-conteiner {
     position: absolute;
     top: 1800px;
     width: 100%;
     height: 430px;
 }
-#atualizacoes{
+
+#atualizacoes {
     position: absolute;
     top: -320px;
     left: 604.85px;
 }
 
-.dashboard{
+.dashboard {
     position: absolute;
     top: -180px;
     left: 200px;
     width: 500px;
     border-radius: 15px;
 }
-.txt_atualizacoes{
+
+.txt_atualizacoes {
     position: absolute;
     top: -140px;
     left: 800px;
     width: 400px;
     text-align: justify;
 }
-#copyright{
+
+#copyright {
     position: absolute;
     top: 35px;
     left: 608.3px;
     font-size: 20px;
 }
-.foot-conteiner{
+
+.foot-conteiner {
     position: absolute;
     top: 2155px;
     width: 100%;

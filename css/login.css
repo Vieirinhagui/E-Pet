@@ -1,25 +1,27 @@
-*{
+* {
     margin: 0;
     border: 0;
     padding: 0;
 }
 
-.form{
+.form {
     position: absolute;
     top: 200px;
-    left: 565.4px ;
+    left: 565.4px;
     width: 350px;
     height: 250px;
     background-color: #5cafff;
     border-radius: 10px;
 }
-#login{
+
+#login {
     position: absolute;
     top: 15px;
     left: 134.981px;
 }
 
-#label_name, #label_password{
+#label_name,
+#label_password {
     position: absolute;
     font-weight: bold;
     top: 80px;
@@ -27,29 +29,31 @@
     font-size: 16px;
 }
 
-#label_password{
+#label_password {
     top: 120px;
     left: 49px;
 }
-#name{
+
+#name {
     position: absolute;
     top: 82px;
     left: 130px;
     border-radius: 5px;
-    border-right: 2px solid black ;
+    border-right: 2px solid black;
     border-bottom: 2px solid black;
-    
+
 }
-#password{
+
+#password {
     position: absolute;
     top: 122px;
     left: 130px;
     border-radius: 5px;
-    border-right: 2px solid black ;
+    border-right: 2px solid black;
     border-bottom: 2px solid black;
 }
 
-#forgot_password{
+#forgot_password {
     position: absolute;
     top: 220px;
     left: 110px;
@@ -59,7 +63,7 @@
     font-size: 14px;
 }
 
-#bnt_login{
+#bnt_login {
     position: absolute;
     top: 170px;
     right: 40px;
@@ -72,16 +76,18 @@
     cursor: pointer;
 }
 
-#bnt_login:hover{
+#bnt_login:hover {
     background-color: #8c8c8c;
 }
-#name:hover{
+
+#name:hover {
     background-color: #e8e8e8;
-    border-right: 2px solid #000e7b ;
+    border-right: 2px solid #000e7b;
     border-bottom: 2px solid #000e7b;
 }
-#password:hover{
+
+#password:hover {
     background-color: #e8e8e8;
-    border-right: 2px solid #000e7b ;
+    border-right: 2px solid #000e7b;
     border-bottom: 2px solid #000e7b;
 }

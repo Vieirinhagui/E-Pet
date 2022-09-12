@@ -1,75 +1,99 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
     position: absolute;
 }
 
-.cadastro{
+.cadastro {
     top: 100px;
-    left: 565.4px ;
+    left: 565.4px;
     width: 350px;
     height: 450px;
     background-color: #5cafff;
     border-radius: 10px;
 }
 
-#txt{
+#txt {
     padding: 40px;
     padding-top: 20px;
     text-align: justify;
 }
 
-#txt_name,#txt_sobrenome,#txt_cpf,#txt_cnpj,#txt_cep,#txt_endereco,#txt_complemento{
+#txt_name,
+#txt_sobrenome,
+#txt_cpf,
+#txt_cnpj,
+#txt_cep,
+#txt_endereco,
+#txt_complemento {
     top: 233px;
     right: 205px;
 }
-#txt_sobrenome{
+
+#txt_sobrenome {
     top: 255px;
 }
-#txt_cpf{
-    top:277px;
+
+#txt_cpf {
+    top: 277px;
 }
-#txt_cnpj{
+
+#txt_cnpj {
     top: 299px;
 }
-#txt_cep{
+
+#txt_cep {
     top: 321px;
 }
-#txt_endereco{
+
+#txt_endereco {
     top: 343px;
 }
-#txt_complemento{
+
+#txt_complemento {
     top: 365px;
 }
 
-#input_name,#input_sobrenome,#input_cpf,#input_cnpj,#input_cep,#input_endereco,#input_complemento{
+#input_name,
+#input_sobrenome,
+#input_cpf,
+#input_cnpj,
+#input_cep,
+#input_endereco,
+#input_complemento {
     top: 235px;
     left: 150px;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    border-radius: 3px;     
+    border-radius: 3px;
 }
-#input_sobrenome{
+
+#input_sobrenome {
     top: 257px;
 }
-#input_cpf{
+
+#input_cpf {
     top: 279px;
 }
-#input_cnpj{
-    top:301px;
+
+#input_cnpj {
+    top: 301px;
 }
-#input_cep{
-    top:323px;
+
+#input_cep {
+    top: 323px;
 }
-#input_endereco{
+
+#input_endereco {
     top: 345px;
 }
-#input_complemento{
+
+#input_complemento {
     top: 367px;
 }
 
-#bnt{
+#bnt {
     width: 120px;
     height: 30px;
     background-color: white;
@@ -82,11 +106,17 @@
     cursor: pointer;
 }
 
-#bnt:hover{
+#bnt:hover {
     background-color: lightgrey;
 }
 
-#input_name:hover,#input_sobrenome:hover,#input_cpf:hover,#input_cnpj:hover,#input_cep:hover,#input_endereco:hover,#input_complemento:hover{
+#input_name:hover,
+#input_sobrenome:hover,
+#input_cpf:hover,
+#input_cnpj:hover,
+#input_cep:hover,
+#input_endereco:hover,
+#input_complemento:hover {
     border-right: 2px solid rgb(11, 0, 97);
     border-bottom: 2px solid rgb(11, 0, 97);
     background-color: lightgrey;
@@ -94,11 +124,18 @@
     outline: 0;
 }
 
-#input_name:focus,#input_sobrenome:focus,#input_cpf:focus,#input_cnpj:focus,#input_cep:focus,#input_endereco:focus,#input_complemento:focus{
+#input_name:focus,
+#input_sobrenome:focus,
+#input_cpf:focus,
+#input_cnpj:focus,
+#input_cep:focus,
+#input_endereco:focus,
+#input_complemento:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
-#back{
+
+#back {
     top: 10px;
     width: 50px;
 }
