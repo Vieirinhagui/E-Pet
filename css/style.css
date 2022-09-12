@@ -37,11 +37,9 @@ body{
 }
 
 .p1{
-    position: absolute;
-    top: 170px;
-    right: 200px;
-    width: 550px;
-    height: 350px;
+    display: flex;
+    margin-left: 700px;
+    margin-top: 80px;
 }
 .p2{
     position: absolute;
