@@ -127,19 +127,40 @@ body {
     padding-top: 1rem;
 }
 
-.bottom-conteiner{
+.bottom-conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-items: center;
 }
-#atualizacoes{
+
+#atualizacoes {
     padding-top: 1rem;
 }
-#dashboard{
+
+#dashboard {
     display: flex;
     margin-right: 30rem;
     width: 35rem;
     border-radius: 15px;
     margin-top: 2rem;
+}
+
+#txt_atualizacoes {
+    display: block;
+    margin-left: 45rem;
+    margin-top: -13rem;
+    margin-bottom: 15rem;
+    text-align: justify;
+    width: 30rem;
+}
+
+.foot-conteiner {
+    height: 6.25rem;
+    background-color: #b8e0ff;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    padding-left: 40rem;
+    font-weight: bold;
 }
