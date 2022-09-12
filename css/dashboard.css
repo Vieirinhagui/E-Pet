@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: absolute;
+}
+
+.top-buttons,.middle-buttons,.bottom-buttons{
+    background-color: black;
+    top: 100px;
+    left: 340px;
+}
+#cad_fun,#cad_cli,#cad_pet,#cad_ser,#fun,#cli,#pet,#ser,#estoque{
+    width: 150px;
+    height: 150px;
+    background-color: #99c5ff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#cad_cli{
+    left: 200px;
+}
+#cad_pet{
+    left: 400px;
+}
+#cad_ser{
+    left: 600px;
+}
+
+.middle-buttons{
+    top: 280px;
+}
+
+#cli{
+    left: 200px;
+}
+#pet{
+    left: 400px;
+}
+#ser{
+    left: 600px;
+}
+
+.bottom-buttons{
+    top: 450px;
+}
+#estoque{
+    left: 300px;
+}
+#back{
+    top: 10px;
+    width: 50px;
+
+}
+#ajustes{
+    top: 10px;
+    width: 40px;
+    left: 1445px;
+}
