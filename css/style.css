@@ -6,9 +6,11 @@
 
 body {
     background-color: #f5fcff;
+    width: 100%;
 }
 
 .navbar {
+    display: flex;
     width: 100%;
     height: 100px;
     background-color: #000ab1;
@@ -37,182 +39,107 @@ body {
     width: 250px;
 }
 
-.p1 {
+.top-conteiner {
     display: flex;
-    margin-left: 700px;
-    margin-top: 80px;
+    flex-direction: column;
 }
 
-.p2 {
-    position: absolute;
-    top: 470px;
-    left: 250px;
-    width: 550px;
-    height: 350px;
+#top-conteiner-1 {
+    display: flex;
+    padding: 3rem;
+    padding-left: 20rem;
 }
 
-#img1 {
-    position: absolute;
-    top: 140px;
-    left: 250px;
-    width: 400px;
-    border-radius: 10px;
+#top-conteiner-2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 3rem;
+    padding-top: 0;
+    width: 1100px;
 }
 
+#img1,
 #img2 {
-    position: absolute;
-    top: 365px;
-    left: 850px;
-    width: 400px;
-    border-radius: 10px;
+    border-radius: 15px;
+    width: 20rem;
 }
 
-.destaque {
-    position: absolute;
-    top: 715px;
+#p1,
+#p2 {
+    width: 25rem;
+    text-align: justify;
+    padding-left: 3rem;
+}
+
+#p2 {
+    padding-right: 3rem;
+}
+
+.middle-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5f1ff;
+    height: 40rem;
     width: 100%;
-    height: 725px;
-    background-color: #9ed0ff;
-    z-index: -1;
 }
 
-#planos {
-    position: absolute;
-    top: 740px;
-    left: 644.82px;
-    text-decoration: none;
-}
-
-.plano_basico,
-.plano_intermediario,
-.plano_avancado {
-    position: absolute;
-    top: 900px;
-    width: 200px;
-    height: 200px;
+#plano_basico,
+#plano_intermediario,
+#plano_avancado {
     border-radius: 50%;
 }
 
-.plano_basico {
-    left: 310.4px;
+#planos {
+    position: relative;
+    text-align: center;
+    left: 19rem;
+    margin-bottom: 6rem;
 }
 
-.plano_intermediario {
-    left: 640.4px;
+#plano1,
+#plano2,
+#plano3 {
+    width: 15rem;
+    height: 22rem;
+    background-color: #b8e0ff;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 15px;
+    margin: 1rem;
+    margin-top: 0;
 }
 
-.plano_avancado {
-    left: 970.4px;
-}
-
-.plano {
-    position: absolute;
-    top: 1120px;
-    left: 380px;
-}
-
-#nome_intermediario {
-    left: 685px;
-}
-
-#nome_avancado {
-    left: 1030px;
-}
-
-.txt {
-    position: absolute;
-    top: 1150px;
-    left: 335px;
-    width: 150px;
-    text-align: justify;
-}
-
-#txt2 {
-    left: 665px;
-}
-
+#txt1,
+#txt2,
 #txt3 {
-    left: 995px;
-}
-
-#color_txt1,
-#color_txt2,
-#color_txt3 {
-    position: absolute;
-    top: 870px;
-    left: 255px;
-    width: 300px;
-    height: 500px;
-    border-radius: 15px;
-    background-color: #70b9ff;
-    z-index: -1;
-}
-
-#color_txt2 {
-    left: 590px;
-}
-
-#color_txt3 {
-    left: 925px;
-}
-
-#valor_txt1,
-#valor_txt2,
-#valor_txt3 {
-    position: absolute;
-    top: 1300px;
-    left: 370px;
-    font-size: 20px;
-}
-
-#valor_txt2 {
-    left: 705px;
-}
-
-#valor_txt3 {
-    left: 1035px;
-}
-
-.bottom-conteiner {
-    position: absolute;
-    top: 1800px;
-    width: 100%;
-    height: 430px;
-}
-
-#atualizacoes {
-    position: absolute;
-    top: -320px;
-    left: 604.85px;
-}
-
-.dashboard {
-    position: absolute;
-    top: -180px;
-    left: 200px;
-    width: 500px;
-    border-radius: 15px;
-}
-
-.txt_atualizacoes {
-    position: absolute;
-    top: -140px;
-    left: 800px;
-    width: 400px;
     text-align: justify;
+    padding: 1rem 0;
 }
 
-#copyright {
-    position: absolute;
-    top: 35px;
-    left: 608.3px;
-    font-size: 20px;
+#nome_basico,
+#nome_intermediario,
+#nome_avancado {
+    padding-top: 1rem;
 }
 
-.foot-conteiner {
-    position: absolute;
-    top: 2155px;
-    width: 100%;
-    height: 100px;
-    background-color: #9ed0ff;
+.bottom-conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+#atualizacoes{
+    padding-top: 1rem;
+}
+#dashboard{
+    display: flex;
+    margin-right: 30rem;
+    width: 35rem;
+    border-radius: 15px;
+    margin-top: 2rem;
 }
