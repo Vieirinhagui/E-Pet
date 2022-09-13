@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    display: flex;
 }
 
 .top-buttons,
@@ -10,6 +9,11 @@
 .bottom-buttons {
     top: 100px;
     left: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    
 }
 
 #cad_fun,
@@ -26,6 +30,7 @@
     background-color: #99c5ff;
     border-radius: 15px;
     cursor: pointer;
+    margin-left: 1%;
 }
 
 #cad_cli {
@@ -71,7 +76,8 @@
 }
 
 #ajustes {
-    top: 10px;
-    width: 40px;
-    left: 1445px;
+  display: flex;
+  justify-content: end;
+  width: 15%;
+  padding: 5px;
 }
