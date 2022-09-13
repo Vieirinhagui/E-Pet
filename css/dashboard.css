@@ -5,26 +5,24 @@
 }
 
 .top-buttons,
-.middle-buttons,
-.bottom-buttons {
-    top: 100px;
-    left: 340px;
+.middle-buttons{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1%;
-    
+    margin-top: 1vh;
 }
-
+.top-buttons{
+    margin-top: 20vh;
+}
 #cad_fun,
 #cad_cli,
 #cad_pet,
 #cad_ser,
 #fun,
 #cli,
-#pet,
-#ser,
-#estoque {
+#estoque,
+#ser{
     width: 150px;
     height: 150px;
     background-color: #99c5ff;
@@ -53,7 +51,7 @@
     left: 200px;
 }
 
-#pet {
+#estoque {
     left: 400px;
 }
 
@@ -63,10 +61,6 @@
 
 .bottom-buttons {
     top: 450px;
-}
-
-#estoque {
-    left: 300px;
 }
 
 #back {
