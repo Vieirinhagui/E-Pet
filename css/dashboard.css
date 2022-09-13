@@ -2,13 +2,12 @@
     margin: 0;
     padding: 0;
     border: 0;
-    position: absolute;
+    display: flex;
 }
 
 .top-buttons,
 .middle-buttons,
 .bottom-buttons {
-    background-color: black;
     top: 100px;
     left: 340px;
 }
