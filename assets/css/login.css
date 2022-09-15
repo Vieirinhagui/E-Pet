@@ -6,6 +6,7 @@
 
 body {
     background-image: url(../images/background.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -24,7 +25,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #47b5ff;
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     width: 17vw;
     height: 50vh;
@@ -47,7 +48,7 @@ body {
 
 #username,
 #password {
-    background-color: #47b5ff;
+    background-color: rgba(255, 255, 255, 0);
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
@@ -59,30 +60,35 @@ input:focus {
 
 #username:hover,
 #password:hover {
-    border-bottom: 2px solid #042054;
-    border-left: 2px solid #042054;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
 }
 
 #username::placeholder,
 #password::placeholder {
     padding-left: 10px;
-    color: #dff6ff;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 #bnt_login {
     width: 50%;
     height: 25px;
     border-radius: 15px;
-    border: 1px solid #042054;
+    background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
     font-weight: bold;
 }
 
 #bnt_login:hover {
-    background-color: #ff9f29;
+    background-color: rgba(255, 159, 41, 0.37);
+    border: 1px solid rgba(0, 0, 0, 0.211);
 }
 
 #forgot_pass {
     text-decoration: none;
-    color: #042054;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#forgot_pass:hover{
+    color: rgba(112, 109, 109, 0.8);
 }
