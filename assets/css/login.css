@@ -27,8 +27,8 @@ body {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
-    width: 17vw;
-    height: 50vh;
+    width: 19vw;
+    height: 65vh;
     min-height: 300px;
     min-width: 200px;
 }
@@ -47,7 +47,10 @@ body {
 }
 
 #username,
-#password {
+#password,
+#cpf,
+#endereco,
+#email {
     background-color: rgba(255, 255, 255, 0);
     border-bottom: 1px solid black;
     border-left: 1px solid black;
@@ -65,9 +68,17 @@ input:focus {
 }
 
 #username::placeholder,
-#password::placeholder {
+#password::placeholder,
+#cpf::placeholder,
+#email::placeholder,
+#endereco::placeholder {
     padding-left: 10px;
     color: rgba(255, 255, 255, 0.5);
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 #bnt_login {

@@ -1,56 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\cadastro.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets\css\login.css">
+    <title>Cadastro</title>
 </head>
 
 <body>
-    <a href="index.html"><img src="images\seta.png" id="back" alt=""></a>
+    <div class="container">
+        <div class="form">
+            <form action="">
+                <div class="campo">
+                    <img src="assets/images/logo.png" id="logo">
+                </div>
 
-    <div class="cadastro">
+                <div class="campo">
+                    <input type="text" id="username" autocomplete="off" placeholder="Username">
+                </div>
 
-        <p id="txt">Lorem ipsum aliquet class quisque in curabitur quam cubilia aptent erat primis, odio convallis odio
-            accumsan ligula augue purus ornare risus. cras orci tempor vitae quisque maecenas non mattis id inceptos
-            ullamcorper ut sollicitudin justo, scelerisque vulputate orci senectus duis diam nisi mauris etiam
-            vestibulum quisque. taciti vulputate donec suscipit cubilia fermentum nostra imperdiet proin volutpat
-        </p>
+                <div class="campo">
+                    <input type="password" id="password" autocomplete="off" placeholder="Password">
+                </div>
 
-        <label for="" id="txt_name">Nome:</label>
+                <div class="campo">
+                    <input type="email" id="email" autocomplete="off" placeholder="Email">
+                </div>
 
-        <input type="text" name="" id="input_name">
+                <div class="campo">
+                    <input type="number" id="cpf" autocomplete="off" placeholder="CPF">
+                </div>
 
-        <label for="" id="txt_sobrenome">Sobrenome:</label>
+                <div class="campo">
+                    <input type="text" id="endereco" autocomplete="off" placeholder="Endereço">
+                </div>
 
-        <input type="text" id="input_sobrenome">
+                <div class="campo">
+                    <button id="bnt_login"><a href="login.html">Cadastrar</a></button>
+                </div>
 
-        <label for="" id="txt_cpf">CPF:</label>
-
-        <input type="cpf" name="" id="input_cpf">
-
-        <label for="" id="txt_cnpj">CNPJ:</label>
-
-        <input type="cnpj" name="" id="input_cnpj">
-
-        <label for="" id="txt_cep">CEP:</label>
-
-        <input type="cep" id="input_cep">
-
-        <label for="" id="txt_endereco">Endereço:</label>
-
-        <input type="text" id="input_endereco">
-
-        <label for="" id="txt_complemento">Complemento:</label>
-
-        <input type="text" id="input_complemento">
-
-        <button id="bnt">Junte-se a nós</button>
-
+                <div class="campo">
+                    <a href="" id="forgot_pass">Esqueci a senha?</a>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
-
 </html>
