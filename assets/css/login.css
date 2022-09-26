@@ -5,8 +5,7 @@
 }
 
 body {
-    background-image: url(../images/background.jpg);
-
+    background-color: #F9942A;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,10 +24,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.436);
     border-radius: 15px;
     width: 19vw;
-    height: 65vh;
+    height: 50vh;
     min-height: 300px;
     min-width: 200px;
 }
@@ -73,7 +72,7 @@ input:focus {
 #email::placeholder,
 #endereco::placeholder {
     padding-left: 10px;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(0, 0, 0, 0.6);
 }
 
 a{
@@ -91,13 +90,13 @@ a{
 }
 
 #bnt_login:hover {
-    background-color: rgba(255, 159, 41, 0.37);
+    background-color: rgba(255, 255, 255, 0.705);
     border: 1px solid rgba(0, 0, 0, 0.211);
 }
 
 #forgot_pass {
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0,0,0, 0.8);
 }
 
 #forgot_pass:hover{
