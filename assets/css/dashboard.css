@@ -72,7 +72,10 @@ a{
     justify-content: center;
     align-items: center;
 }
-.modal-cad-fun{
+.mostrar{
+    display: flex;
+}
+.modal-cad-fun,.modal-cad-cli,.modal-cad-ser,.modal-cad-pet,.modal-fun,.modal-cli,.modal-ser,.modal-estoque{
     background-color: #b9b9b9;
     width: 22%;
     min-width: 300px;
@@ -106,9 +109,7 @@ input:focus{
     display: flex;
     justify-content: center;
 }
-.mostrar{
-    display: flex;
-}
+
 #modal-bnt-can,#modal-bnt-cad{
     width: 100px; 
     height:35px; 
