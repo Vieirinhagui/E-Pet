@@ -1,13 +1,15 @@
-*{
+* {
     border: 0;
     padding: 0;
     margin: 0;
     box-shadow: none;
 }
-body{
+
+body {
     background-color: #F9942A;
 }
-button{
+
+button {
     background-color: #d9d9d9;
     border: 1px solid rgba(0, 0, 0, 0.486);
     width: 180px;
@@ -15,55 +17,79 @@ button{
     border-radius: 30px;
     box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.462);
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
     font-size: 14px;
 }
-.top-buttons, .middle-buttons{
+
+.top-buttons,
+.middle-buttons {
     display: flex;
     padding: 2%;
     justify-content: center;
     height: 150px;
 }
-.top-buttons{
+
+.top-buttons {
     margin-top: 1%;
 }
-#cad_fun,#cad_cli,#cad_ser,#fun,#cli,#ser{
+
+#cad_fun,
+#cad_cli,
+#cad_ser,
+#fun,
+#cli,
+#ser {
     margin-right: 1%;
 }
-#logo{
+
+#logo {
     width: 90px;
     height: 90px;
 }
-.div_logo{
+
+.div_logo {
     display: flex;
     justify-content: start;
     margin-top: 2%;
     margin-left: 2%;
 }
-#cad_fun:hover,#cad_cli:hover,#cad_pet:hover,#cad_ser:hover,#fun:hover,#cli:hover,#ser:hover,#estoque:hover{
+
+#cad_fun:hover,
+#cad_cli:hover,
+#cad_pet:hover,
+#cad_ser:hover,
+#fun:hover,
+#cli:hover,
+#ser:hover,
+#estoque:hover {
     cursor: pointer;
 }
 
-.icon-buttons{
-    width:100px ; 
+.icon-buttons {
+    width: 100px;
     padding: 10px 40px 7px;
 }
-.icon-buttons-menor{
-    width: 80px; 
+
+.icon-buttons-menor {
+    width: 80px;
     padding: 7px 30px 3px;
 }
-.icon-buttons-menor:hover{
+
+.icon-buttons-menor:hover {
     width: 900px;
 }
-.icon-buttons:hover{
+
+.icon-buttons:hover {
     width: 110px;
 }
-.modal-container{
+
+.modal-container {
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
     top: 0;
     left: 0;
     z-index: 999;
@@ -72,10 +98,19 @@ a{
     justify-content: center;
     align-items: center;
 }
-.mostrar{
+
+.mostrar {
     display: flex;
 }
-.modal-cad-fun,.modal-cad-cli,.modal-cad-ser,.modal-cad-pet,.modal-fun,.modal-cli,.modal-ser,.modal-estoque{
+
+.modal-cad-fun,
+.modal-cad-cli,
+.modal-cad-ser,
+.modal-cad-pet,
+.modal-fun,
+.modal-cli,
+.modal-ser,
+.modal-estoque {
     background-color: #b9b9b9;
     width: 22%;
     min-width: 300px;
@@ -85,52 +120,60 @@ a{
     box-shadow: -1px 1px 1px black;
 }
 
-.campo1,.campo{
+.campo1,
+.campo {
     padding: 5px;
     margin-top: 3%;
     margin-left: 10%;
 }
-.buttons{
+
+.buttons {
     display: flex;
     justify-content: center;
     align-items: flex-end;
     height: 8vh;
 }
-input{
+
+input {
     background-color: #b9b9b9;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
 }
-input:focus{
+
+input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
 }
-.modal-titulo{
+
+.modal-titulo {
     display: flex;
     justify-content: center;
 }
 
-#modal-bnt-can,#modal-bnt-cad{
-    width: 100px; 
-    height:35px; 
-    cursor:pointer;
+#modal-bnt-can,
+#modal-bnt-cad {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
 }
-#modal-bnt-cad{
-    margin-left:10px;
+
+#modal-bnt-cad {
+    margin-left: 10px;
 }
-@media (min-width:380px) and (max-width:450px){
-    *{
+
+@media (min-width:380px) and (max-width:450px) {
+    * {
         border: 0;
         padding: 0;
         margin: 0;
         box-shadow: none;
     }
-    
-    body{
+
+    body {
         background-color: #F9942A;
     }
-   
-    button{
+
+    button {
         background-color: #d9d9d9;
         border: 1px solid black;
         width: 120px;
@@ -143,51 +186,66 @@ input:focus{
         margin-bottom: 10px;
         margin-top: 2%;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: black;
         font-size: 14px;
     }
-    .dashboard{
+
+    .dashboard {
         display: flex;
     }
-    .top-buttons, .middle-buttons{
+
+    .top-buttons,
+    .middle-buttons {
         display: flex;
         flex-direction: column;
         margin-top: 50%;
     }
-    #logo{
+
+    #logo {
         width: 90px;
         height: 90px;
     }
-    .div_logo{
+
+    .div_logo {
         display: flex;
         justify-content: start;
         margin-top: 2%;
         margin-left: 2%;
     }
-    #cad_fun:hover,#cad_cli:hover,#cad_pet:hover,#cad_ser:hover,#fun:hover,#cli:hover,#ser:hover,#estoque:hover{
+
+    #cad_fun:hover,
+    #cad_cli:hover,
+    #cad_pet:hover,
+    #cad_ser:hover,
+    #fun:hover,
+    #cli:hover,
+    #ser:hover,
+    #estoque:hover {
         cursor: pointer;
     }
-    
-    .icon-buttons{
-        width:50px ; 
+
+    .icon-buttons {
+        width: 50px;
         padding: 10px 20px 3px;
     }
 }
-@media (max-width:379px){
-    *{
+
+@media (max-width:379px) {
+    * {
         border: 0;
         padding: 0;
         margin: 0;
         box-shadow: none;
     }
-    
-    body{
+
+    body {
         background-color: #F9942A;
     }
-   
-    button{
+
+    button {
         background-color: #d9d9d9;
         border: 1px solid black;
         width: 120px;
@@ -200,35 +258,49 @@ input:focus{
         margin-bottom: 10px;
         margin-top: 2%;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: black;
         font-size: 14px;
     }
-    .dashboard{
+
+    .dashboard {
         display: flex;
     }
-    .top-buttons, .middle-buttons{
+
+    .top-buttons,
+    .middle-buttons {
         display: flex;
         flex-direction: column;
         margin-top: 45%;
     }
-    #logo{
+
+    #logo {
         width: 90px;
         height: 90px;
     }
-    .div_logo{
+
+    .div_logo {
         display: flex;
         justify-content: start;
         margin-top: 2%;
         margin-left: 2%;
     }
-    #cad_fun:hover,#cad_cli:hover,#cad_pet:hover,#cad_ser:hover,#fun:hover,#cli:hover,#ser:hover,#estoque:hover{
+
+    #cad_fun:hover,
+    #cad_cli:hover,
+    #cad_pet:hover,
+    #cad_ser:hover,
+    #fun:hover,
+    #cli:hover,
+    #ser:hover,
+    #estoque:hover {
         cursor: pointer;
     }
-    
-    .icon-buttons{
-        width:50px ; 
+
+    .icon-buttons {
+        width: 50px;
         padding: 10px 20px 3px;
     }
 }
