@@ -1,13 +1,9 @@
-const  openModalButton  =  document . querySelector ( "#open-modal" ) ;
-const  closeModalButton  =  document . querySelector ( "#close-modal" ) ;
-const  modal  =  documento . querySelector ( "#modal" ) ;
-const  fade  =  documento . querySelector ( "#fade" ) ;
+function iniciaModal(modalId){
+  const modal1 = document.getElementById(modalId);
+  modal1.classList.add('mostrar')
+}
 
-const  alternânciaModal  =  ( )  =>  {
-  modal . classList . alternar ( "esconder" ) ;
-  desaparecer . classList . alternar ( "esconder" ) ;
-} ;
-
-[ openModalButton ,  closeModalButton ,  fade ] . forEach ( ( el )  =>  {
-  el . addEventListener ( "clique" ,  ( )  =>  toggleModal ( ) ) ;
-} ) ;
+const btn = document.querySelector('.top-buttons');
+btn.addEventListener('click', () => {
+  iniciaModal('modal-cad-fun');
+});

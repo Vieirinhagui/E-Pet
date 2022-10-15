@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./assets/css/dashboard.css">
     <link rel="icon" href="assets\images\favicon.png">
     <title>Dashboard</title>
-    <script src="assets/js/dashboard.js"></script>
 </head>
 
 <body>
@@ -40,44 +39,26 @@
 
     <div id="modal-cad-fun" class="modal-container">
         <div class="modal-cad-fun">
-            <div class="modal-titulo">
-                <h3>Cadastro de Funcionários</h3>
-            </div>
-
+            <button class="exit">x</button>
+            <h3 class="titulo">Cadastro de Funcionários</h3>
+            <br>
             <form>
-                <div class="campo1">
-                    <label for="">Nome:</label>
-                    <input type="text">
-                </div>
-
-                <div class="campo">
-                    <label for="">E-mail:</label>
-                    <input type="email" name="" id="">
-                </div>
-
-                <div class="campo">
-                    <label for="">Data de Nascimento:</label>
-                    <input type="date" name="" id="">
-                </div>
-
-                <div class="campo">
-                    <label for="">CPF:</label>
-                    <input type="cpf">
-                </div>
-
-                <div class="campo">
-                    <label for="">Telefone:</label>
-                    <input type="telefone">
-                </div>
-
-                <div class="buttons">
-                    <button id="modal-bnt-can">Cancelar</button>
-                    <button id="modal-bnt-cad">Cadastrar</button>
-                </div>
+                <input type="text" class="input" placeholder="Nome">
+                <br><br>
+                <input type="email" class="input" placeholder="Email">
+                <br><br>
+                <input type="text" class="input" placeholder="Nascimento">
+                <br><br>
+                <input type="cpf" class="input" placeholder="CPF">
+                <br><br>
+                <input type="telefone" class="input" placeholder="Telefone">
+                <br><br>
+                <button class="btn">CADASTRAR</button>
             </form>
         </div>
     </div>
 
+    <!--
     <div id="modal-cad-cli" class="modal-container">
 
         <div class="modal-cad-cli">
@@ -362,5 +343,20 @@
             </form>
         </div>
     </div>
+-->
+    <script>
+        function iniciaModal(modalId){
+            const modal = document.getElementById(modalId);
+            modal.classList.add('mostrar')
+            modal.addEventListener('click', (e) =>{
+                if(e.target.id == modalId || e.target.className == 'exit'){
+                    modal.classList.remove('mostrar');
+                }
+            });
+          }
+
+          const btn = document.querySelector('.top-buttons');
+          btn.addEventListener('click', () => iniciaModal ('modal-cad-fun'));
+    </script>
 </body>
 </html>
