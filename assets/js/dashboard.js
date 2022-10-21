@@ -5,6 +5,13 @@ function iniciaModal(modalId) {
   const modal = document.getElementById(modalId);
   modal.classList.add("mostrar");
 }
+
+// FUNÇÃO PARA PARAR OS MODAIS
+function modalEstoque(modalId) {
+  const modal = document.getElementById(modalId);
+  modal.classList.remove("mostrar");
+}
+
 // MODAL DE CADASTRO DE FUNCIONARIO
 
 const cad_fun = document.querySelector("#cad_fun");
@@ -53,9 +60,14 @@ ser.addEventListener("click", () => {
   iniciaModal("modal-container-ser");
 });
 
-// MODAL DE CADASTRO DE PETS
+// MODAL DE ESTOQUE
 
 const estoque = document.querySelector("#estoque");
 estoque.addEventListener("click", () => {
   iniciaModal("modal-container-estoque");
+});
+
+const removeestoque = document.querySelector("#modal-container-estoque");
+removeestoque.addEventListener("click", () => {
+  modalEstoque("modal-container-estoque");
 });
