@@ -5,8 +5,7 @@ function iniciaModal(modalId) {
   const modal = document.getElementById(modalId);
   modal.classList.add("mostrar");
 }
-
-// FUNÇÃO PARA PARAR OS MODAIS
+// FUNÇÃO PARA PARAR O MODAL ESTOQUE
 function modalEstoque(modalId) {
   const modal = document.getElementById(modalId);
   modal.classList.remove("mostrar");
@@ -70,4 +69,15 @@ estoque.addEventListener("click", () => {
 const removeestoque = document.querySelector("#modal-container-estoque");
 removeestoque.addEventListener("click", () => {
   modalEstoque("modal-container-estoque");
+});
+// FUNÇÃO DE BUSCA
+
+function buscarevent(){
+  const busca= document.getElementsByClassName("modal-bnt-cad");
+  busca.style.color='black';
+}
+
+const buscar = document.getElementsByClassName("modal-bnt-cad");
+buscar.addEventListener("click",() =>{
+  buscarevent();
 });

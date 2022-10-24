@@ -298,8 +298,8 @@ input:focus {
     justify-content: center;
 }
 
-#modal-bnt-can,
-#modal-bnt-cad {
+.modal-bnt-can,
+.modal-bnt-cad {
     width: 100px;
     height: 35px;
     cursor: pointer;
@@ -307,6 +307,9 @@ input:focus {
 
 #modal-bnt-cad {
     margin-left: 10px;
+}
+input::placeholder{
+    color: black;
 }
 
 @media (min-width:380px) and (max-width:450px) {
